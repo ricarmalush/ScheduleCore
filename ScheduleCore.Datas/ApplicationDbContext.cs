@@ -5,6 +5,7 @@ namespace ScheduleCore.Datas
 {
     public class ApplicationDbContext : DbContext
     {
+        //
         public DbSet<Country> Country { get; set; }
         public DbSet<Province> Province { get; set; }
 
